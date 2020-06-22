@@ -4,11 +4,10 @@
 	"description": "<p>13시대 한글</p>",
 	"version": "0.0.1",
 	"minimumCoreVersion" : "0.6.0",
-	"compatibleCoreVersion": "0.6.0",
+	"compatibleCoreVersion": "0.6.3",
 	"author": "mrkb",
 	"esmodules": [
-	"babele-register.js",
-	"compendium.js"
+	"babele-register.js"
 	],
 	"scripts": [],
 	"styles": ["style.css"],
