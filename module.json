@@ -1,6 +1,6 @@
 {
 	"name": "13thagekr",
-	"title": "13thagekr",
+	"title": "13th Age System Korean Localization",
 	"description": "<p>13시대 한글</p>",
 	"version": "0.0.1",
 	"minimumCoreVersion" : "0.6.0",
@@ -12,7 +12,6 @@
 	"scripts": [],
 	"styles": ["style.css"],
 	"packs": [],
-
 	"languages": [
 	{
       "lang": "ko",
@@ -20,8 +19,7 @@
       "path": "ko.json"
     }
 	],
-
-	"url": "http://127.0.0.1",
-	"manifest": "http://127.0.0.1",
-	"download": "http://127.0.0.1"
+	"url": "https://github.com/MaronKB/13thagekr",
+	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
+	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
 }
