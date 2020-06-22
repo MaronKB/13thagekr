@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu&family=Gamja+Flower&family=Gugi&family=Hi+Melody&family=Jua&family=Nanum+Gothic+Coding:wght@700&family=Nanum+Gothic:wght@700&family=Nanum+Myeongjo:wght@700&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@700&family=Noto+Serif+KR:wght@700&family=Poor+Story&family=Song+Myung&family=Stylish&family=Sunflower:wght@500&family=Yeon+Sung&display=swap');
+
+#chat-log .card-header,
+.archmage.sheet h1,
+.archmage.sheet h2,
+.archmage.sheet h3,
+.archmage.sheet h4,
+.archmage.actor-sheet .sheet-header .charname > input,
+.archmage.actor-sheet .sheet-header .charlevel .level,
+.archmage.actor-sheet .details .character-detail .attribute-label,
+.archmage.actor-sheet .primary-attributes .attribute .attribute-name,
+.archmage.actor-sheet .statuses .status h4,
+.archmage .abilities .ability-name,
+.archmage .abilities .ability-header,
+.class-header h3,
+.class-list .item .class-levels,
+.class-list .item .class-name,
+.archmage.actor-sheet.npc-sheet .charlevel .initiative,
+.archmage-escalation::after {
+	font-family: 'Gugi', cursive;
+}
+
+#chat-log .message,
+.archmage.sheet,
+.archmage.actor-sheet .primary-attributes .attribute .attribute-value,
+.archmage.actor-sheet .primary-attributes .attribute .attribute-value,
+.archmage .abilities .ability .ability-score > input,
+.archmage .abilities .ability .ability-mod,
+.archmage .abilities .ability .ability-lvl,
+.archmage-escalation {
+	font-family: 'Jua', sans-serif;
+}
+
+#chat-log .message {
+	font-size: 14px;
+}
+
+.compendium.overrides .directory-list {
+  display: none; }
+  .compendium.overrides .directory-list.directory-list--archmage {
+    display: block; }
+
+.compendium .directory-list--archmage .directory-list--archmage {
+  overflow-y: visible; }
+
+.compendium .directory-list--archmage .directory-item {
+  display: none; }
+
+.compendium .directory-list--archmage h3.entry-group {
+  font-family: "mason-serif", "Nodesto", "Signika", "Palatino Linotype", serif;
+  font-weight: normal;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1;
+  white-space: normal;
+  padding: 10px;
+  margin: 4px 0;
+  color: #fff;
+  background: -o-linear-gradient(45deg, #6f98b1, #333);
+  background: linear-gradient(45deg, #6f98b1, #333); }
+
+.compendium .directory-list--archmage .directory-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  font-family: "warnock-pro", "sans-serif"; }
+  .compendium .directory-list--archmage .directory-item h4.entry-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .compendium .directory-list--archmage .directory-item h4.entry-name a {
+      font-family: "mason-serif", "Nodesto", "Signika", "Palatino Linotype", serif;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1;
+      white-space: normal;
+      padding: 0 0 4px; }
+    .compendium .directory-list--archmage .directory-item h4.entry-name .tags {
+      line-height: 1;
+      margin: 0;
+      text-transform: capitalize;
+      font-size: 12px;
+      padding: 4px 0;
+      width: 100%;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      color: rgba(0, 0, 0, 0.5); }
+  .compendium .directory-list--archmage .directory-item.ability-usage h4.entry-name .tags {
+    color: #fff; }

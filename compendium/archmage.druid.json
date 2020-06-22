@@ -1,0 +1,469 @@
+{
+	"label": "(미번역)드루이드",
+	"entries": [
+		{
+			"id": "Air & Fire",
+			"name": "Air & Fire",
+			"description": ""
+		},
+		{
+			"id": "Air Mastery",
+			"name": "Air Mastery"
+		},
+		{
+			"id": "Ancestral Guidance",
+			"name": "Ancestral Guidance"
+		},
+		{
+			"id": "Animal Companion",
+			"name": "Animal Companion"
+		},
+		{
+			"id": "Animal Companion 1",
+			"name": "Animal Companion 1"
+		},
+		{
+			"id": "Animal Companion 2",
+			"name": "Animal Companion 2"
+		},
+		{
+			"id": "Animal Companion 3",
+			"name": "Animal Companion 3"
+		},
+		{
+			"id": "Animal Companion 4",
+			"name": "Animal Companion 4"
+		},
+		{
+			"id": "Armor of Shell & Spirits",
+			"name": "Armor of Shell & Spirits"
+		},
+		{
+			"id": "Barkskin ",
+			"name": "Barkskin "
+		},
+		{
+			"id": "Bear Aspect",
+			"name": "Bear Aspect"
+		},
+		{
+			"id": "Beast Form",
+			"name": "Beast Form"
+		},
+		{
+			"id": "Beast Form Attack",
+			"name": "Beast Form Attack"
+		},
+		{
+			"id": "Beast Spirits",
+			"name": "Beast Spirits"
+		},
+		{
+			"id": "Behemoth Aspect",
+			"name": "Behemoth Aspect"
+		},
+		{
+			"id": "Behemoth’s Endurance",
+			"name": "Behemoth’s Endurance"
+		},
+		{
+			"id": "Blood is Strong",
+			"name": "Blood is Strong"
+		},
+		{
+			"id": "Bull’s Strength",
+			"name": "Bull’s Strength"
+		},
+		{
+			"id": "Call Lightning",
+			"name": "Call Lightning",
+			"description": ""
+		},
+		{
+			"id": "Cat’s Grace",
+			"name": "Cat’s Grace"
+		},
+		{
+			"id": "Cave, Dungeon, Underworld",
+			"name": "Cave, Dungeon, Underworld"
+		},
+		{
+			"id": "Cone of Cold",
+			"name": "Cone of Cold"
+		},
+		{
+			"id": "Deeper Waters",
+			"name": "Deeper Waters"
+		},
+		{
+			"id": "Devastation ",
+			"name": "Devastation ",
+			"description": ""
+		},
+		{
+			"id": "Druidic Summoning",
+			"name": "Druidic Summoning"
+		},
+		{
+			"id": "Earth Mastery",
+			"name": "Earth Mastery",
+			"description": ""
+		},
+		{
+			"id": "Earth Strength",
+			"name": "Earth Strength"
+		},
+		{
+			"id": "Elemental Pivot",
+			"name": "Elemental Pivot"
+		},
+		{
+			"id": "Entangle",
+			"name": "Entangle"
+		},
+		{
+			"id": "Faerie Fire",
+			"name": "Faerie Fire",
+			"description": ""
+		},
+		{
+			"id": "Fire Mastery",
+			"name": "Fire Mastery"
+		},
+		{
+			"id": "Flame Seeds (Fire)",
+			"name": "Flame Seeds (Fire)"
+		},
+		{
+			"id": "Flame Spear",
+			"name": "Flame Spear"
+		},
+		{
+			"id": "Fog Bank (Water)",
+			"name": "Fog Bank (Water)",
+			"description": ""
+		},
+		{
+			"id": "Forest, Woods",
+			"name": "Forest, Woods"
+		},
+		{
+			"id": "Frost Touch (Terrain Feat Spell)",
+			"name": "Frost Touch (Terrain Feat Spell)"
+		},
+		{
+			"id": "Fungal Ambuscade",
+			"name": "Fungal Ambuscade"
+		},
+		{
+			"id": "Greater Regeneration",
+			"name": "Greater Regeneration"
+		},
+		{
+			"id": "Greenmantle",
+			"name": "Greenmantle"
+		},
+		{
+			"id": "Gust (Air)",
+			"name": "Gust (Air)",
+			"description": ""
+		},
+		{
+			"id": "Hail",
+			"name": "Hail",
+			"description": ""
+		},
+		{
+			"id": "Harmony",
+			"name": "Harmony",
+			"description": ""
+		},
+		{
+			"id": "Heat Metal",
+			"name": "Heat Metal",
+			"description": ""
+		},
+		{
+			"id": "How Things End",
+			"name": "How Things End",
+			"description": ""
+		},
+		{
+			"id": "Ice Shield",
+			"name": "Ice Shield"
+		},
+		{
+			"id": "Ice, Tundra, Deep Snow",
+			"name": "Ice, Tundra, Deep Snow"
+		},
+		{
+			"id": "Icicle",
+			"name": "Icicle"
+		},
+		{
+			"id": "Inevitable Collapse",
+			"name": "Inevitable Collapse",
+			"description": ""
+		},
+		{
+			"id": "Invoke the Storm",
+			"name": "Invoke the Storm"
+		},
+		{
+			"id": "Leopard Aspect",
+			"name": "Leopard Aspect"
+		},
+		{
+			"id": "Lightning Strikes (Air)",
+			"name": "Lightning Strikes (Air)",
+			"description": ""
+		},
+		{
+			"id": "Magic Fang",
+			"name": "Magic Fang"
+		},
+		{
+			"id": "Magic Fang",
+			"name": "Magic Fang"
+		},
+		{
+			"id": "Mantis Aspect",
+			"name": "Mantis Aspect"
+		},
+		{
+			"id": "Migration Route (Large Herd Animal)",
+			"name": "Migration Route (Large Herd Animal)"
+		},
+		{
+			"id": "Migratory Teleport",
+			"name": "Migratory Teleport",
+			"description": ""
+		},
+		{
+			"id": "Mountains",
+			"name": "Mountains",
+			"description": ""
+		},
+		{
+			"id": "Nature’s Fury",
+			"name": "Nature’s Fury"
+		},
+		{
+			"id": "Owlbear Aspect",
+			"name": "Owlbear Aspect"
+		},
+		{
+			"id": "Owl’s Wisdom",
+			"name": "Owl’s Wisdom"
+		},
+		{
+			"id": "Pack Link",
+			"name": "Pack Link"
+		},
+		{
+			"id": "Plains, Overworld",
+			"name": "Plains, Overworld",
+			"description": ""
+		},
+		{
+			"id": "Plantwalk",
+			"name": "Plantwalk"
+		},
+		{
+			"id": "Poison Thorns (Terrain Feat Spell)",
+			"name": "Poison Thorns (Terrain Feat Spell)",
+			"description": ""
+		},
+		{
+			"id": "Purification Chant",
+			"name": "Purification Chant",
+			"description": ""
+		},
+		{
+			"id": "Rain of Acorns (Terrain Feat Spell)",
+			"name": "Rain of Acorns (Terrain Feat Spell)"
+		},
+		{
+			"id": "Reclamation",
+			"name": "Reclamation",
+			"description": ""
+		},
+		{
+			"id": "Red Claw",
+			"name": "Red Claw"
+		},
+		{
+			"id": "Regeneration",
+			"name": "Regeneration"
+		},
+		{
+			"id": "Resilience",
+			"name": "Resilience"
+		},
+		{
+			"id": "Ripping Vines",
+			"name": "Ripping Vines"
+		},
+		{
+			"id": "Ruination (Terrain Feat Spell)",
+			"name": "Ruination (Terrain Feat Spell)",
+			"description": ""
+		},
+		{
+			"id": "Ruins",
+			"name": "Ruins",
+			"description": ""
+		},
+		{
+			"id": "Rumble",
+			"name": "Rumble",
+			"description": ""
+		},
+		{
+			"id": "Shake It Off",
+			"name": "Shake It Off"
+		},
+		{
+			"id": "Shifter",
+			"name": "Shifter"
+		},
+		{
+			"id": "Shifter (2nd feat)",
+			"name": "Shifter (2nd feat)"
+		},
+		{
+			"id": "Shillelagh",
+			"name": "Shillelagh"
+		},
+		{
+			"id": "Spark (Terrain Feat Spell)",
+			"name": "Spark (Terrain Feat Spell)",
+			"description": ""
+		},
+		{
+			"id": "Spider Climb",
+			"name": "Spider Climb"
+		},
+		{
+			"id": "Spikestones",
+			"name": "Spikestones"
+		},
+		{
+			"id": "Spirit Guardian",
+			"name": "Spirit Guardian"
+		},
+		{
+			"id": "Spirits of the Land",
+			"name": "Spirits of the Land"
+		},
+		{
+			"id": "Stomp!",
+			"name": "Stomp!",
+			"description": ""
+		},
+		{
+			"id": "Stoneskin",
+			"name": "Stoneskin",
+			"description": ""
+		},
+		{
+			"id": "Strength of Earth",
+			"name": "Strength of Earth"
+		},
+		{
+			"id": "Summon Air Elemental",
+			"name": "Summon Air Elemental",
+			"description": ""
+		},
+		{
+			"id": "Summon Earth Elemental",
+			"name": "Summon Earth Elemental",
+			"description": ""
+		},
+		{
+			"id": "Summon Fire Elemental",
+			"name": "Summon Fire Elemental",
+			"description": ""
+		},
+		{
+			"id": "Summon Water Elemental",
+			"name": "Summon Water Elemental",
+			"description": ""
+		},
+		{
+			"id": "Sunbeams (Terrain Feat Spell)",
+			"name": "Sunbeams (Terrain Feat Spell)",
+			"description": ""
+		},
+		{
+			"id": "Swamp, Lake, River",
+			"name": "Swamp, Lake, River",
+			"description": ""
+		},
+		{
+			"id": "Talk to Animals",
+			"name": "Talk to Animals"
+		},
+		{
+			"id": "The Beast Shrugs",
+			"name": "The Beast Shrugs"
+		},
+		{
+			"id": "The Big Muddy",
+			"name": "The Big Muddy"
+		},
+		{
+			"id": "Tiger Aspect",
+			"name": "Tiger Aspect"
+		},
+		{
+			"id": "Vitality",
+			"name": "Vitality"
+		},
+		{
+			"id": "Wall of Stone (Earth)",
+			"name": "Wall of Stone (Earth)"
+		},
+		{
+			"id": "Warrior Druid",
+			"name": "Warrior Druid"
+		},
+		{
+			"id": "Warrior’s Blessing",
+			"name": "Warrior’s Blessing"
+		},
+		{
+			"id": "Water Breathing",
+			"name": "Water Breathing",
+			"description": ""
+		},
+		{
+			"id": "Water Mastery",
+			"name": "Water Mastery"
+		},
+		{
+			"id": "Ways of the Dark (Terrain Feat Spell)",
+			"name": "Ways of the Dark (Terrain Feat Spell)"
+		},
+		{
+			"id": "Whoomph (Terrain Feat Spell)",
+			"name": "Whoomph (Terrain Feat Spell)"
+		},
+		{
+			"id": "Wild Harmony",
+			"name": "Wild Harmony"
+		},
+		{
+			"id": "Wild Heal",
+			"name": "Wild Heal"
+		},
+		{
+			"id": "Wild Healer",
+			"name": "Wild Healer"
+		},
+		{
+			"id": "Wolverine Aspect",
+			"name": "Wolverine Aspect"
+		}
+	]
+}
