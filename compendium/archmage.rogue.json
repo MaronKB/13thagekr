@@ -51,7 +51,7 @@
 			"name": "치명적 찌르기",
 			"range": "근접 공격",
 			"target": "비틀거리는, 조무래기가 아닌 적.",
-			"attack": "민첩성 + 근력 + 레벨 vs. 장갑",
+			"attack": "[[d20+@str.mod+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해.",
 			"miss": "[[@lvl]] 피해.",
 			"adv": "<p>근력 수정치가 빗나감 피해에 더해집니다.</p>",

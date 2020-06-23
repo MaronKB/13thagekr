@@ -1,8 +1,8 @@
 {
   "ARCHMAGE.SETTINGS.ShowDebugLogsName": "디버그 로그 표시",
-  "ARCHMAGE.SETTINGS.ShowDebugLogsHint": "Turn this on for bug reports",
+  "ARCHMAGE.SETTINGS.ShowDebugLogsHint": "버그 리포트를 봅니다.",
   "ARCHMAGE.SETTINGS.ShowRareCoinsName": "희귀 주화를 시트에 표시",
-  "ARCHMAGE.SETTINGS.ShowRareCoinsHint": "Rare coins include Towers, Trines, and Saints",
+  "ARCHMAGE.SETTINGS.ShowRareCoinsHint": "탑화나 삼금화 등의 희귀 주화를 표시합니다.",
   "ARCHMAGE.feats": "특기",
   "ARCHMAGE.incrementals": "성장",
   "ARCHMAGE.incrementalAdvances": "점진적 성장",
