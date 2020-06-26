@@ -16,7 +16,10 @@
 .class-list .item .class-levels,
 .class-list .item .class-name,
 .archmage.actor-sheet.npc-sheet .charlevel .initiative,
-.archmage-escalation::after {
+.archmage-escalation::after,
+.compendium .directory-list--archmage h3.entry-group,
+.compendium .directory-list--archmage .directory-item,
+.compendium .directory-list--archmage .directory-item h4.entry-name a {
 	font-family: 'Gugi', cursive;
 }
 
@@ -30,62 +33,3 @@
 .archmage-escalation {
 	font-family: 'Jua', sans-serif;
 }
-
-#chat-log .message {
-	font-size: 14px;
-}
-
-.compendium.overrides .directory-list {
-  display: none; }
-  .compendium.overrides .directory-list.directory-list--archmage {
-    display: block; }
-
-.compendium .directory-list--archmage .directory-list--archmage {
-  overflow-y: visible; }
-
-.compendium .directory-list--archmage .directory-item {
-  display: none; }
-
-.compendium .directory-list--archmage h3.entry-group {
-  font-family: "mason-serif", "Nodesto", "Signika", "Palatino Linotype", serif;
-  font-weight: normal;
-  font-size: 24px;
-  text-shadow: 1px 1px 2px #000;
-  text-align: center;
-  text-transform: capitalize;
-  line-height: 1;
-  white-space: normal;
-  padding: 10px;
-  margin: 4px 0;
-  color: #fff;
-  background: -o-linear-gradient(45deg, #6f98b1, #333);
-  background: linear-gradient(45deg, #6f98b1, #333); }
-
-.compendium .directory-list--archmage .directory-item {
-  padding: 10px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  font-family: "warnock-pro", "sans-serif"; }
-  .compendium .directory-list--archmage .directory-item h4.entry-name {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    .compendium .directory-list--archmage .directory-item h4.entry-name a {
-      font-family: "mason-serif", "Nodesto", "Signika", "Palatino Linotype", serif;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 1;
-      white-space: normal;
-      padding: 0 0 4px; }
-    .compendium .directory-list--archmage .directory-item h4.entry-name .tags {
-      line-height: 1;
-      margin: 0;
-      text-transform: capitalize;
-      font-size: 12px;
-      padding: 4px 0;
-      width: 100%;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      color: rgba(0, 0, 0, 0.5); }
-  .compendium .directory-list--archmage .directory-item.ability-usage h4.entry-name .tags {
-    color: #fff; }
