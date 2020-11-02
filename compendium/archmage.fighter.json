@@ -3,6 +3,7 @@
 	"mapping": {
 		"value": "data.effect.value",
 		"special": "data.special.value",
+		"miss": "data.miss.value",
 		"range": "data.range.value",
 		"trigger": "data.trigger.value",
 		"adv": "data.feats.adventurer.description.value",
@@ -151,7 +152,10 @@
 		},
 		{
 			"id": "Melee attack",
-			"name": "근접 공격"
+			"name": "근접 공격",
+			"value": "[[d20+@str.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.m.dice+@str.dmg+@wpn.m.atk]] 피해.",
+			"miss": "[[@lvl]] 피해."
 		},
 		{
 			"id": "Never Surrender",
@@ -189,7 +193,9 @@
 		},
 		{
 			"id": "Ranged Attack",
-			"name": "원거리 공격"
+			"name": "원거리 공격",
+			"value": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해."
 		},
 		{
 			"id": "Second Shot",

@@ -3,6 +3,7 @@
 	"mapping": {
 		"value": "data.effect.value",
 		"special": "data.special.value",
+		"miss": "data.miss.value",
 		"adv": "data.feats.adventurer.description.value",
 		"champ": "data.feats.champion.description.value",
 		"epic" : "data.feats.epic.description.value"
@@ -89,11 +90,17 @@
 		},
 		{
 			"id": "Melee attack (str/dex)",
-			"name": "근접 공격 (근/민)"
+			"name": "근접 공격 (근/민)",
+			"value": "근[[d20+@str.mod+@wpn.m.atk+@ed]] or 민[[d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"hit": "근[[@wpn.m.dice+@str.dmg+@wpn.m.atk]] or 민[[@wpn.m.dice+@dex.dmg+@wpn.m.atk]] 피해.",
+			"miss": "[[@lvl]] 피해."
 		},
 		{
 			"id": "Ranged Attack (miss dmg.)",
-			"name": "원거리 공격 (빗나감 피해)"
+			"name": "원거리 공격 (빗나감 피해)",
+			"value": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해.",
+			"miss": "[[@lvl]] 피해."
 		},
 		{
 			"id": "Ranger ex Cathedral",
