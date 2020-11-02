@@ -368,7 +368,7 @@
 		{
 			"id": "Melee attack (no miss dmg.)",
 			"name": "근접 공격 (빗나감 피해 없음)",
-			"value": "[[d20+@str.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[d20+@str.mod+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.m.dice+@str.dmg+@wpn.m.atk]] 피해."
 		},
 		{
@@ -418,7 +418,7 @@
 		{
 			"id": "Ranged Attack",
 			"name": "원거리 공격",
-			"value": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
+			"attack": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해."
 		},
 		{

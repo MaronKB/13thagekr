@@ -165,7 +165,7 @@
 		{
 			"id": "Melee attack (str/dex)",
 			"name": "근접 공격 (근/민)",
-			"value": "근[[d20+@str.mod+@wpn.m.atk+@ed]] or 민[[d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "근[[d20+@str.mod+@wpn.m.atk+@ed]] or 민[[d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "근[[@wpn.m.dice+@str.dmg+@wpn.m.atk]] or 민[[@wpn.m.dice+@dex.dmg+@wpn.m.atk]] 피해.",
 			"miss": "[[@lvl]] 피해."
 		},
@@ -197,7 +197,7 @@
 		{
 			"id": "Ranged Attack",
 			"name": "원거리 공격",
-			"value": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
+			"attack": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해."
 		},
 		{
