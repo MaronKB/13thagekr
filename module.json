@@ -4,7 +4,7 @@
 	"description": "<p>13시대 한국어화</p>",
 	"version": "1.1.0",
 	"minimumCoreVersion" : "0.6.4",
-	"compatibleCoreVersion": "0.7.5",
+	"compatibleCoreVersion": "0.7.8",
 	"author": "mrkb",
 	"esmodules": [
 	"babele-register.js"

@@ -1,5 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu&family=Gamja+Flower&family=Gugi&family=Hi+Melody&family=Jua&family=Nanum+Gothic+Coding:wght@700&family=Nanum+Gothic:wght@700&family=Nanum+Myeongjo:wght@700&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@700&family=Noto+Serif+KR:wght@700&family=Poor+Story&family=Song+Myung&family=Stylish&family=Sunflower:wght@500&family=Yeon+Sung&display=swap');
-
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MapoAgape';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoAgapeA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 #chat-log .card-header,
 .archmage.sheet h1,
 .archmage.sheet h2,
@@ -20,7 +30,7 @@
 .compendium .directory-list--archmage h3.entry-group,
 .compendium .directory-list--archmage .directory-item,
 .compendium .directory-list--archmage .directory-item h4.entry-name a {
-	font-family: 'Gugi', cursive;
+	font-family: 'MapoAgape';
 }
 
 #chat-log .message,
@@ -31,5 +41,5 @@
 .archmage .abilities .ability .ability-mod,
 .archmage .abilities .ability .ability-lvl,
 .archmage-escalation {
-	font-family: 'Jua', sans-serif;
+	font-family: 'NEXON Lv1 Gothic OTF';
 }

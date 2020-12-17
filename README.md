@@ -3,9 +3,9 @@
 ### Description
 제작자: 마론군밤(MRKB)
 
-호환(fVTT): 0.6.4
+호환(fVTT): 0.7.8
 
-호환(Archmage): 1.6.1
+호환(Archmage): 1.7.5
 
 ### Requirements
 컴펜디움 번역을 위해 본 모듈은 Babele를 필요로 합니다. Babele는 이하의 링크에서 다운받을 수 있습니다.
