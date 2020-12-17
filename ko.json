@@ -189,13 +189,13 @@
   "ARCHMAGE.SAVE.disengage": "물러서기",
   "ARCHMAGE.SAVE.success": "성공",
   "ARCHMAGE.SAVE.failure": "실패",
-  "ARCHMAGE.TOURS.170.welcome": "Welcome to Toolkit13 (13th Age Compatible) version 1.7.0! Here's a quick tour of new features",
-  "ARCHMAGE.TOURS.170.documentation": "We have started the (long) process of writing documentation for the system. If you have documentation you want to contribute, please reach out or issue a Pull Request!",
-  "ARCHMAGE.TOURS.170.cards": "We now have Card Support for Icon Relationship 5's and 6's - Please see the documentation for more info on how to enable and set this up",
-  "ARCHMAGE.TOURS.170.sheets": "Character sheets have been reworked. Open one up to check it out!",
-  "ARCHMAGE.TOURS.170.showItem": "You can now show an Item to all players with a new 'Show to Players' button",
-  "ARCHMAGE.TOURS.170.iconRelationships": "Rolling Icon Relationships now has a nicer Chat display, along with Disengage and Save checks",
-  "ARCHMAGE.TOURS.170.monstersCompendium": "There is now a system-provided Monsters Compendium",
-  "ARCHMAGE.TOURS.170.generalFeats": "Along with General Feats, courtesy of the Community!",
-  "ARCHMAGE.TOURS.170.end": "There's a variety of bug fixes and minor tweaks as well, such as to Trigger automation. Come join us in the Foundry Discord #13th-age channel for questions and feedback!"
+  "ARCHMAGE.TOURS.170.welcome": "툴킷13(13시대 호환)에 오신 것을 환영합니다! 새 기능에 대한 짧은 소개가 있습니다.",
+  "ARCHMAGE.TOURS.170.documentation": "시스템 문서 작성에 대한 장기 과정을 시작했습니다. 기여하고 싶은 문서가 있다면, 연락을 주시거나 Pull Request 기능을 사용해주세요!",
+  "ARCHMAGE.TOURS.170.cards": "이제 표상 관계 주사위 5와 6에 대한 카드가 지원됩니다. 이 기능을 활성화하고 설정하는 방법은 문서를 참조하세요.",
+  "ARCHMAGE.TOURS.170.sheets": "캐릭터 시트가 리뉴얼되었습니다. 열어서 확인해 보세요!",
+  "ARCHMAGE.TOURS.170.showItem": "이제 '플레이어에게 보여주기' 버튼으로 아이템을 모든 플레이어에게 공개할 수 있습니다.",
+  "ARCHMAGE.TOURS.170.iconRelationships": "표상 굴림이 더 나은 디자인과 각각의 이점을 표시합니다.",
+  "ARCHMAGE.TOURS.170.monstersCompendium": "이제 시스템에서 제공하는 괴물들에 대한 컴펜디움이 생겼습니다.",
+  "ARCHMAGE.TOURS.170.generalFeats": "커뮤니티 덕에, 일반 특기도 함께 말이죠!",
+  "ARCHMAGE.TOURS.170.end": "트리거 자동화같은 작은 수정이나 버그픽스도 있습니다. Foundry 디스코드 #13th-age 채널로 오셔서 질문과 피드백을 나눌 수 있습니다!"
 }

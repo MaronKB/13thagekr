@@ -418,7 +418,7 @@
 		{
 			"id": "Ranged Attack",
 			"name": "원거리 공격",
-			"value": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
+			"attack": "[[d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해."
 		},
 		{
