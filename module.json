@@ -2,9 +2,9 @@
 	"name": "13thagekr",
 	"title": "Translation: Korean [13th Age]",
 	"description": "<p>13시대 한국어화</p>",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"minimumCoreVersion" : "0.6.4",
-	"compatibleCoreVersion": "0.7.8",
+	"compatibleCoreVersion": "0.7.9",
 	"author": "mrkb",
 	"esmodules": [
 	"babele-register.js"
