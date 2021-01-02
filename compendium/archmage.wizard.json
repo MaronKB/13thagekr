@@ -368,7 +368,7 @@
 		{
 			"id": "Melee attack (no miss dmg.)",
 			"name": "근접 공격 (빗나감 피해 없음)",
-			"value": "[[1d20+@str.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@str.mod+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.m.dice+@str.dmg+@wpn.m.atk]] 피해."
 		},
 		{
