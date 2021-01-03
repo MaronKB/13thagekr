@@ -29,7 +29,7 @@
 		{
 			"id": "Acid Arrow",
 			"name": "산성 화살",
-			"value": "<p>[[2d4+@atk.a.bonus]] 마력 피해.</p>",
+			"hit": "<p>[[2d4+@atk.a.bonus]] 마력 피해.</p>",
 			"range": "원거리 주문",
 			"target": "단거리나 장거리의 적 하나.",
 			"attack": "자동 명중",
@@ -368,8 +368,8 @@
 		{
 			"id": "Melee attack (no miss dmg.)",
 			"name": "근접 공격 (빗나감 피해 없음)",
-			"attack": "[[1d20+@str.mod+@wpn.m.atk+@ed]] vs. 장갑",
- 			"hit": "[[@wpn.m.dice+@str.dmg+@wpn.m.atk]] 피해."
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.m.dice+@wpn.m.atk]] 피해."
 		},
 		{
 			"id": "Mending",
@@ -419,8 +419,8 @@
 			"id": "Ranged Attack",
 			"name": "원거리 공격",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
- 			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해."
+			"attack": "[[1d20+@wpn.r.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.r.dice+@wpn.r.atk]] 피해."
 		},
 		{
 			"id": "Ray of Frost",

@@ -32,8 +32,8 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
- 			"hit": "[[@wpn.p.dice+@str.dmg+@wpn.m.atk+@ed]] 불 피해, 자유 행동으로 한 번 물러서기 판정을 할 수 있습니다. 모든 적에게서 물러서면 다음 차례가 끝날 때까지 비행 능력을 얻습니다.",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
+ 			"hit": "[[@wpn.p.dice+@wpn.m.atk+@ed]] 불 피해, 자유 행동으로 한 번 물러서기 판정을 할 수 있습니다. 모든 적에게서 물러서면 다음 차례가 끝날 때까지 비행 능력을 얻습니다.",
  			"miss": "[[@lvl]] 피해."
 		},
 		{
@@ -42,7 +42,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"evenhit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 추가로 단거리의 무작위 적 하나가 [[@lvl*2]]만큼 벼락 피해를 받습니다.",
 			"oddhit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 추가로 다음 차례가 끝날 때까지 비행 능력을 얻습니다.",
  			"miss": "절반 피해, 추가로 단거리의 무작위 적 하나가 수도사 레벨만큼의 벼락 피해를 받습니다."
@@ -55,7 +55,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"miss": "[[@lvl]] 피해."
 		},
@@ -66,7 +66,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 수도사와 접전중인 모든 적이 각 각 1d6 피해를 받습니다 (5레벨이 되면 2d6 피해, 8레벨이 되 면 4d6 피해).",
  			"evenmiss": "절반 피해.",
@@ -96,7 +96,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] [[1d20+@wpn.m.atk+@ed]]vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] [[1d20+@wpn.m.atk+@ed]]vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 다음 차례가 시작되기 전에 수도사와 접전중인 적이 수도사를 공격해 올 때 그 적에게 간섭 행동으로 [[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해를 줄 수 있습니다.",
  			"miss": "절반 피해.",
@@ -125,7 +125,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"miss": "절반 피해."
 		},
@@ -136,7 +136,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 공격을 맞은 후 비틀거리는 대상은 5 지속 독 피해를 받습니다.",
  			"miss": "자신에게 [[@lvl]] 피해."
 		},
@@ -146,7 +146,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 추가로 단거리의 무작위 우리편이 표상 관계 주사위를 굴려 (표상은 수도사가 선택) 나중에 이야기 지침 결과로 사용할 수 있습니다. 보통의 경우와 마찬가지로 5나 6이 나온 결과만 반영됩니다.",
  			"miss": "빗나감: 절반 피해."
@@ -161,7 +161,7 @@
 			"target": "적 하나",
  			"trigger": "고조 주사위가 3 이상일 때",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해"
 		},
 		{
@@ -172,7 +172,7 @@
 			"target": "적 하나",
  			"trigger": "",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"evenmiss": "절반 피해."
 		},
@@ -182,8 +182,8 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "장군의 섬멸에서 고른 두 번째 공격 대상",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
- 			"hit": "[[@wpn.p.dice+@str.dmg+@wpn.m.atk+@ed]] 불 피해.",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.p.dice+@wpn.m.atk+@ed]] 불 피해.",
  			"miss": "[[@lvl]] 피해."
 		},
 		{
@@ -193,7 +193,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 최대 두 명; 첫 번째 공격 대상 하나와 두 번째 공격 대상 하나 선택",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"miss": "[[@lvl]] 피해.",
  			"adv": "<p><strong>기 능력</strong> (<em>용의 포효</em>): 마무리 공격으로 조무래기가 아닌 적의 체력을 0으로 떨어뜨리면 기 1점을 써서 다음 차례에 두 번째 일반 행동을 얻을 수 있습니다. 기를 모으거나, 힘을 쓸 준비를 하거나, 그와 비슷한 일을 하는 것입니다. 어떤 이유로든 다음 차례에 추가 일반 행동을 사용하지 않으면 기 1점을 돌려받지만, 그러면 이 전투에서는 기를 더 소비할 수 없습니다.</p>"
@@ -205,7 +205,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 15 지속 음 에너지 피해.",
 			"evenhit": "명중과 같으며, 추가로 다음 차례가 끝날 때까지 몸이 유령 같아져서 비행 능력과 더불어 모든 피해에 대한 피해 저항 16+를 얻습니다. 고체를 통과할 수 있지만, 그 안에서 차례를 마칠 수는 없습니다.",
  			"miss": "[[@lvl]] 피해.",
@@ -244,7 +244,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 추가로 대상이 대상의 레벨과 같은 지속 음 에너지 피해를 받습니다.",
  			"miss": "자기가 5 지속 음 에너지 피해를 받습니다."
@@ -266,8 +266,8 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "자기보다 레벨이 높은 적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
- 			"hit": "[[@wpn.p.dice+@str.dmg+@wpn.m.atk+@ed]] 불 피해.",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
+ 			"hit": "[[@wpn.p.dice+@wpn.m.atk+@ed]] 불 피해.",
 			"evenhit": "명중과 같으며, 추가로 원기를 써서 회복할 수 있습니다.",
 			"oddhit": "명중과 같으며, 추가로 극복 가능한 효과 하나에 대한 극복 판정을 할 수 있습니다.",
  			"evenmiss": "절반 피해.",
@@ -295,7 +295,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"miss": "절반 피해."
 		},
@@ -305,7 +305,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 수도사가 다음 차례를 시작하기 전에 수도사를 공격하는 적은 공격한 후에 매번 수도사 레벨의 두 배만큼 천둥 피해를 받습니다."
 		},
 		{
@@ -316,7 +316,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"miss": "[[@lvl]] 피해."
 		},
@@ -328,7 +328,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"miss": "절반 피해."
 		},
@@ -340,7 +340,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 추가로 다음 차례가 시작될 때까 지 피해 저항 16+를 받습니다.",
  			"miss": "[[@lvl]] 피해.",
@@ -354,7 +354,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 대상과 접전중인 우리편 한 명이 대상에 게서 이탈할 수 있습니다.",
  			"miss": "[[@lvl]] 피해."
 		},
@@ -375,7 +375,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"trigger": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 대상에게서 이탈할 수 있습니다.",
  			"miss": "[[@lvl]] 피해."
 		},
@@ -393,7 +393,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 공격을 받은 후에 체력이 180 이 하이면 대상은 수도사의 다음 차례가 끝날 때까지 저해됩니다. 체력이 180을 넘으면 20 지속 독 피해를 받습니다.",
  			"miss": "절반 피해.",
@@ -406,7 +406,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] + 2 vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] + 2 vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"evenmiss": "전투가 끝날 때까지 개시 공격, 연계 공격, 마 무리 공격의 대성공 범위가 1만큼 확장됩니다.",
 			"oddmiss": "[[@lvl]] 피해.",
@@ -426,7 +426,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 고조 주사위 숫자 1당 1d6의 추가 불 피해.",
  			"miss": "[[@lvl]] 피해.",
  			"champ": "<p>전투마다 한 번, 비행 중인 수도사가 장갑 또는 신방에 대한 공격에 명중당했을 때 자유 행동으로 그 적의 공격을 재판정하게 만들 수 있습니다.</p>",
@@ -438,8 +438,8 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
- 			"hit": "[[@wpn.j.dice+@str.dmg+@wpn.m.atk+@ed]] 불 피해.",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
+ 			"hit": "[[@wpn.j.dice+@wpn.m.atk+@ed]] 불 피해.",
  			"evenmiss": "5 지속 불 피해."
 		},
 		{
@@ -449,7 +449,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 추가로 5 지속 독 피해.",
  			"miss": "자신에게 [[@lvl]] 피해."
@@ -461,7 +461,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "자기보다 체력이 많은 적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"evenhit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 10 지속 냉기 피해.",
 			"oddhit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 우리편 한 명이 대상에게서 이탈할 수 있습니다.",
  			"miss": "절반 피해."
@@ -483,7 +483,7 @@
 			"target": "적 하나",
  			"trigger": "",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 고조 주사위가 1 높아집니다.",
  			"miss": "[[@lvl]] 피해."
@@ -496,7 +496,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해."
 		},
 		{
@@ -505,7 +505,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "우리편과 접전중이 아닌 적 하나.",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 추가로 2d6 지속 벼락 피해.",
  			"miss": "자기와 대상 모두에게 [[@lvl]] 피해."
@@ -517,7 +517,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 그리고 자유 행동으로 시야에 있는 단거리의 다른 적과 인접한 곳에 순간이동해서 접전에 들어가고 타격 공격을 할 수 있습니다.",
  			"miss": "절반 피해, 다음 전투까지는 나선의 길 식에 속한 공격을 사용할 수 없습니다. (타격 빗나감: 대상에게 [[@lvl]] 피해를 줍니다.)",
  			"epic" : "<p>하루에 한 전투에서, 원래는 가지고 있지 않은 수도사 재능 하나를 선택합니다. 그 전투에서는 그 재능을 가진 것으로 칩니다.</p>"
@@ -529,7 +529,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "우리편과 접전중이 아닌 적 하나.",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 대상이 아닌 단거리의 적 1d3명 이 각각 수도사의 레벨 두 배만큼 벼락 피해를 받습니다.",
  			"miss": "절반 피해.",
@@ -542,7 +542,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 공격을 받은 후 대상의 체력이 180 이하이면 대상은 다음 차례가 끝날 때까지 멍해집니다.",
  			"miss": "[[@lvl]] 피해."
@@ -554,7 +554,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 이 전투에서 이미 분발을 하지 않았다면 자유 행동으로 한 번 분발할 수 있습니다.",
  			"evenmiss": "절반 피해.",
@@ -577,7 +577,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 대상이 공격을 받은 후에 비틀거리면 하나 선택: 대상에게서 이탈할 수 있습니다; 또는 대상이 수도사 레벨만큼의 지속 산 피해를 받습니다.",
  			"miss": "[[@lvl]] 피해."
 		},
@@ -587,7 +587,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며, 추가로 단거리의 다른 적이 명중 피해의 절반만큼 마력 피해를 받습니다."
 		},
@@ -598,7 +598,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해, 조무래기가 아닌 적이 이 공격을 받고 체력이 0으로 떨어지면 다음 번 일반 행동으로 마무리 공격을 사용할 수 있습니다."
 		},
 		{
@@ -608,7 +608,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 또는 대상이 대형이나 거대이면 강타 + 근력 피해.",
 			"evenhit": "명중과 같으며, 공격을 마친 후 자유 행동으로 한 번 물러서기 판정을 할 수 있습니다.",
  			"miss": "절반 피해."
@@ -621,7 +621,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "지속 피해를 입고 있는 적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
 			"evenhit": "명중과 같으며 추가로 10 지속 독 피해를 주고, 대상은 체력이 45 이하이면 저해됩니다 (극복 판정 하나로 둘 다 종료). 레벨이 높아지면 체력 경계 값도 자동으로 올라갑니다.",
 			"oddhit": "명중과 같으며, 추가로 5 지속 독 피해.",
@@ -635,8 +635,8 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
- 			"hit": "[[@wpn.j.dice+@str.dmg+@wpn.m.atk+@ed]] 천둥 피해.",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
+ 			"hit": "[[@wpn.j.dice+@wpn.m.atk+@ed]] 천둥 피해.",
 			"evenhit": "명중과 같으며, 추가로 단거리의 무작위 적 하나가 10 지속 천둥 피해를 받습니다.",
 			"oddhit": "명중과 같으며, 이 공격을 마친 후에 전투가 끝날 때까지 대성공 범위가 1만큼 확장됩니다.",
  			"miss": "절반 피해.",
@@ -649,7 +649,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 극복 가능한 효과에 대해 극복 판정을 한 번 할 수 있습니다.",
 			"evenhit": "명중과 같으며, 극복 판정에 통찰 수정치만큼 보 너스를 받습니다.",
  			"miss": "절반 피해."
@@ -660,7 +660,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "우리편과 접전중이 아닌 적 하나.",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 대상에게서 이탈할 수 있습니다.",
 			"evenhit": "명중과 같으며, 차례가 끝날 때 수도사가 대상이 아닌 적과 접전중이면 접전중인 적 하나가 10 피해를 받습니다 (공격을 마칠 때 크게 할퀴는 동작으로).",
  			"miss": "절반 피해."
@@ -672,7 +672,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 최대 두 명",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.j.dice+@str.dmg+@atk.m.bonus]] 피해.",
  			"evenmiss": "절반 피해.",
 			"oddmiss": "[[@lvl]] 피해.",
@@ -685,7 +685,7 @@
  			"range": "근접 공격",
 			"target": "적 하나",
  			"target": "적 하나",
- 			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
  			"hit": "[[@wpn.p.dice+@str.dmg+@atk.m.bonus]] 피해, 다음의 이점 중에서 하나 선택: 자유 행동으로 한 번 이동 행동을 할 수 있습니다; 또는 다음 차례가 시작될 때까지 신방에 보너스로 +4를 받습니다.",
  			"miss": "절반 피해."
 		}

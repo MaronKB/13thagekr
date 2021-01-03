@@ -22,7 +22,7 @@
 			"range": "근접 공격",
 			"target": "적 하나",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해 (암습 피해도 있으면 포함)의 절반. 이 공격으로 조무래기가 아닌 대상을 체력 0으로 떨어뜨리면 이 차례에 일반 행동을 한 번 더 할 수 있습니다.",
 			"miss": "[[@lvl]] 피해.",
 			"epic" : "<p>차례마다 한 번, 이 공격이 조무래기를 쓰러뜨렸을 때도 추가 일반 행동을 받습니다.</p>"
@@ -33,7 +33,7 @@
 			"range": "근접 공격",
 			"target": "적 하나",
 			"target": "지속 피해를 당하고 있지 않은 적 하나.",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해. 순수 짝수였으면 대상은 레벨당 1d4에 해당하는 지속 피해를 입습니다.",
 			"miss": "[[@lvl]] 피해.",
 			"adv": "<p>대형/거대 대상에 대한 지속 피해가 레벨당 1d6으로 증가합니다.</p>",
@@ -54,7 +54,7 @@
 			"range": "근접 공격",
 			"target": "적 하나",
 			"target": "비틀거리는, 조무래기가 아닌 적.",
-			"attack": "[[1d20+@str.mod+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해.",
 			"miss": "[[@lvl]] 피해.",
 			"adv": "<p>근력 수정치가 빗나감 피해에 더해집니다.</p>",
@@ -87,7 +87,7 @@
 			"range": "근접 공격",
 			"target": "적 하나",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해, 그리고 대상으로부터 이탈할 수 있습니다.",
 			"miss": "[[@lvl]] 피해.",
 			"adv": "<p>회피의 일격으로 적을 쓰러뜨리면 접전중인 모든 적으로부터 이탈할 수 있습니다.</p>",
@@ -101,7 +101,7 @@
 			"range": "원거리 공격",
 			"target": "적 하나",
 			"target": "단거리의 적 하나.",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해. 공격 판정이 순수 짝수이고 대상이 우리편과 접전중인 경우 그 라운드의 암습 피해를 여기 적용할 수 있습니다.",
 			"miss": "[[@lvl]] 피해.",
 			"adv": "<p>비도로 대성공이 나오면 대상은 도적의 다음 차례가 끝날 때까지 어지러워집니다 (공격에 -4).</p>",
@@ -128,8 +128,8 @@
 			"id": "Melee attack (dex)",
 			"name": "근접 공격 (민)",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
- 			"hit": "[[@wpn.m.dice+@dex.dmg+@wpn.m.atk]] 피해.",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.m.dice+@wpn.m.atk]] 피해.",
 			"miss": "[[@lvl]] 피해."
 		},
 		{
@@ -153,8 +153,8 @@
 			"id": "Ranged Attack (miss dmg.)",
 			"name": "원거리 공격 (빗나감 피해)",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.r.atk+@ed]] vs. 장갑",
- 			"hit": "[[@wpn.r.dice+@dex.dmg+@wpn.r.atk]] 피해.",
+			"attack": "[[1d20+@wpn.r.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.r.dice+@wpn.r.atk]] 피해.",
 			"miss": "[[@lvl]] 피해."
 		},
 		{
@@ -219,7 +219,7 @@
 			"special": "<p>기세가 있어야 하고, 명중했을 때 적에게 암습 피해를 가할 수 있어야 합니다.</p>",
 			"range": "근접 공격",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해.",
 			"miss": "[[@lvl]] 피해 + 암습 피해.",
 			"champ": "<p>확실한 베기가 빗나가도 암습을 그 라운드에 쓴 것으로 치지 않습니다.</p>"
@@ -256,7 +256,7 @@
 			"range": "근접 공격",
 			"target": "적 하나",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 신방",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 신방",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해 (암습 피해도 있으면 포함)의 절반. 보통 극복 판정을 합니다. 성공하면 대상이 들고 있지 않은 물건을 훔칠 수 있습니다. (16+가 나오면 대상은 물건을 도둑맞은 줄 모릅니다.)",
 			"adv": "<p></p>",
 			"champ": "<p></p>",
@@ -301,7 +301,7 @@
 			"always": "이 차례에 시도하는 모든 물러서기 판정에 +5 보너스를 받습니다. 또한, 이동해서 적과 접전에 들어가고, 이 공격을 하고, 짧은 행동으로 물러서기를 시도할 수 있습니다 (이 짧은 행동 물러서기에 성공하면 또 이동이 가능합니다).",
 			"range": "근접 공격",
 			"target": "적 하나",
-			"attack": "[[1d20+@dex.mod+@wpn.m.atk+@ed]] vs. 장갑",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.m.bonus]] 피해.",
 			"miss": "[[@lvl]] 피해."
 		}
