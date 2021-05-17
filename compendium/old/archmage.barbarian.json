@@ -43,11 +43,11 @@
 			"epic": "<p>쌓여가는 분노를 하루에 2회 쓸 수 있습니다.</p>"
 		},
 		{
-			"id": "Melee attack (Barbarian)",
-			"name": "근접 공격 (야인)",
+			"id": "Melee attack",
+			"name": "근접 공격",
 			"target": "적 하나",
-			"attack": "[[d20+@str.mod+@std+@atk.m.bonus]] vs. 장갑",
- 			"hit": "[[@wpn.m.dice+@str.dmg+@atk.m.bonus]]  피해.",
+			"attack": "[[1d20+@wpn.m.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.m.dice+@wpn.m.atk]] 피해.",
 			"miss": "[[@lvl]] 피해."
 		},
 		{
@@ -59,11 +59,11 @@
 			"epic": "<p>천연의 의지력을 적에게 공격을 받은 순간 자유 행동으로 사용할 수 있습니다.</p>"
 		},
 		{
-			"id": "Ranged Attack (Barbarian)",
+			"id": "Ranged Attack",
 			"name": "원거리 공격",
 			"target": "적 하나",
-			"attack": "[[d20+@dex.mod+@std+@atk.r.bonus]] vs. 장갑",
- 			"hit": "[[@wpn.r.dice+@dex.dmg+@atk.r.bonus]] 피해."
+			"attack": "[[1d20+@wpn.r.atk+@ed]] vs. 장갑",
+ 			"hit": "[[@wpn.r.dice+@wpn.r.atk]] 피해."
 		},
 		{
 			"id": "Relentless",
@@ -109,22 +109,6 @@
 			"adv": "<p>돌개바람 공격이 빗나갈 때 빗나감 피해를 줍니다.</p>",
 			"champ": "<p>장갑과 신방 페널티가 -2로 줄어듭니다. 또한, 돌개바람을 쓴 차례에 하는 물러서기는 자동으로 성공합니다.</p>",
 			"epic": "<p>돌개바람을 자기 차례의 첫 행동만이 아니라 어느 때든 쓸 수 있습니다.</p>"
-		},
-		{
-			"id": "(Rage) Melee attack",
-			"name": "(광분) 근접 공격",
-			"target": "적 하나",
-			"attack": "[[2d20kh+@str.mod+@std+@atk.m.bonus]] vs. 장갑",
- 			"hit": "[[@wpn.m.dice+@str.dmg+@atk.m.bonus]]  피해.",
-			"miss": "[[@lvl]] 피해."
-		},
-		{
-			"id": "(Rage) Thrown attack",
-			"name": "(광분) 투척 무기 공격",
-			"target": "적 하나",
-			"attack": "[[2d20kh+@dex.mod+@std+@atk.r.bonus]] vs. 장갑",
- 			"hit": "[[@wpn.m.dice+@dex.dmg+@atk.r.bonus]]  피해.",
-			"miss": "[[@lvl]] 피해."
 		}
 	]
 }
