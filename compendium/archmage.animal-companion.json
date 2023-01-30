@@ -1,0 +1,148 @@
+{
+	"label": "동물 친구",
+	"mapping": {
+		"group": "data.group.value",
+		"originalName": "data.powerOriginName.value",
+		"sourceName": "data.powerSourceName.value",
+		"range": "data.range.value",
+		"trigger": "data.trigger.value",
+		"target": "data.target.value",
+		"always": "data.always.value",
+		"attack": "data.attack.value",
+		"hit": "data.hit.value",
+		"evenHit": "data.hitEven.value",
+		"oddHit": "data.hitOdd.value",
+		"crit": "data.crit.value",
+		"miss": "data.miss.value",
+		"evenMiss": "data.missEven.value",
+		"oddMiss": "data.missOdd.value",
+		"cost": "data.cost.value",
+		"special": "data.special.value",
+		"effect": "data.effect.value",
+		"castBroadEffect": "data.castBroadEffect.value",
+		"castPower": "data.castBroadEffect.value",
+		"sustainedEffect": "data.sustainedEffect.value",
+		"finalVerse": "data.finalVerse.value",
+		"chainedSpell": "data.spellChain.value",
+		"breathWeapon": "data.breathWeapon.value",
+		"3rdLevelSpell": "data.spellLevel3.value",
+		"5thLevelSpell": "data.spellLevel5.value",
+		"7thLevelSpell": "data.spellLevel7.value",
+		"9thLevelSpell": "data.spellLevel9.value",
+		"adventurer": "data.feats.adventurer.description.value",
+		"champion": "data.feats.champion.description.value",
+		"epic" : "data.feats.epic.description.value"
+	},
+	"entries": {
+		"Animal Companion": {
+			"name": "동물 친구",
+			"group": "동물 친구",
+			"originalName": "동물 친구",
+			"sourceName": "레인저/드루이드",
+			"effect": "<p>보통 크기의 동물 친구가 있어 전투에서 함께 싸웁니다.</p><p>동물 친구 재능을 한 번 택하면 초급 동물 친구 재능을 얻습니다. 동물 친구 재능을 두 번 선택하면 숙련 동물 친구를 얻습니다.</p><p>행동 순서 판정을 할 때, 동물 친구가 전투에 참여하는지 안 하는지 선택할 수 있습니다. 처음에 동물 친구 없이 전투를 시작했다가 도중에 부르고 싶어질 경우, 짧은 행동을 써서 부릅니다.</p><p>한 전투에서 함께 싸운 초급 동물 친구는 바로 다음 번 전투에 오지 않습니다. 대부분의 다른 능력과 달리 완전 휴식을 취하고, 새 시나리오를 시작하고, 레벨을 높여도 이 제한이 유지됩니다. 숙련 동물 친구는 이 제한이 없습니다. 숙련 동물 친구는 매 전투마다 싸울 수 있습니다.</p><h3><strong>숙련 동물 친구 성장 표</strong></h3><table><thead><tr><th>레벨</th><th>일일 주문</th><th>주문 레벨</th></tr></thead><tbody><tr><td>1레벨 다중 클래스</td><td>1</td><td>1레벨</td></tr><tr><td>1레벨</td><td>1</td><td>1레벨</td></tr><tr><td> 2레벨</td><td>2</td><td>1레벨</td></tr><tr><td>3레벨</td><td>2</td><td>3레벨</td></tr><tr><td>4레벨</td><td>2</td><td>3레벨</td></tr><tr><td>5레벨</td><td>3</td><td>5레벨</td></tr><tr><td>6레벨</td><td>3</td><td>5레벨</td></tr><tr><td>7레벨</td><td>3</td><td>7레벨</td></tr><tr><td>8레벨</td><td>4</td><td>7레벨</td></tr><tr><td>9레벨</td><td>4</td><td>9레벨</td></tr><tr><td>10레벨</td><td>4</td><td>9레벨</td></tr></tbody></table>"
+		},
+		"Animal Companion: Feats 1": {
+			"name": "동물 친구 특기 1",
+			"group": "동물 친구",
+			"originalName": "동물 친구 특기 1",
+			"sourceName": "레인저/드루이드",
+			"special": "<p>동물 친구 특기는 하위 등급을 택하지 않아도 상위 등급을 선택할 수 있습니다. 즉, 전에 무엇을 골랐건 간에 등급만 맞으면 선택할 수 있습니다.</p>",
+			"adventurer": "<p>하루에 한 번, 동물 친구가 일반 행동으로 그 라운드에 2회 공격할 수 있습니다.</p>",
+			"champion": "<p>하루에 한 번, 동물 친구에게 명중한 적의 공격을 재판정시킬 수 있습니다.</p>",
+			"epic" : "<p>동물 친구의 피해 주사위가 한 등급 높아집니다(예: d6이 d8로, d8이 d10으로).</p>"
+		},
+		"Animal Companion: Feats 2": {
+			"name": "동물 친구 특기 2",
+			"group": "동물 친구",
+			"originalName": "동물 친구 특기 2",
+			"sourceName": "레인저/드루이드",
+			"special": "<p>동물 친구 특기는 하위 등급을 택하지 않아도 상위 등급을 선택할 수 있습니다. 즉, 전에 무엇을 골랐건 간에 등급만 맞으면 선택할 수 있습니다.</p>",
+			"adventurer": "<p>전투마다 한 번, 동물 친구는 자기와 접전중인 적의 물러서기 판정 성공을 실패로 바꿀 수 있습니다.</p>",
+			"champion": "<p>죽음의 사냥꾼 재능을 택한 경우, 그 효과가 동물 친구에게도 적용됩니다.<p>",
+			"epic" : "<p>동물 친구의 장갑이 +1 높아집니다.</p>"
+		},
+		"Animal Companion: Feats 3": {
+			"name": "동물 친구 특기 3",
+			"group": "동물 친구",
+			"originalName": "동물 친구 특기 3",
+			"sourceName": "레인저/드루이드",
+			"special": "<p>동물 친구 특기는 하위 등급을 택하지 않아도 상위 등급을 선택할 수 있습니다. 즉, 전에 무엇을 골랐건 간에 등급만 맞으면 선택할 수 있습니다.</p>",
+			"adventurer": "<p>하루에 한 번, 동물 친구의 빗나간 공격 판정을 재판정할 수 있습니다.</p>",
+			"champion": "<p>동물 친구의 신방과 정방이 +1씩 높아집니다.</p>"
+		},
+		"Animal Companion: Feats 4": {
+			"name": "동물 친구 특기 4",
+			"group": "동물 친구",
+			"originalName": "동물 친구 특기 4",
+			"sourceName": "레인저/드루이드",
+			"special": "<p>동물 친구 특기는 하위 등급을 택하지 않아도 상위 등급을 선택할 수 있습니다. 즉, 전에 무엇을 골랐건 간에 등급만 맞으면 선택할 수 있습니다.</p>",
+			"adventurer": "<p>동물 친구의 공격 판정에 고조 주사위가 적용됩니다.</p>"
+		},
+		"Armor of Shell & Spirits": {
+			"name": "영과 육신의 갑옷",
+			"group": "동물 친구",
+			"originalName": "영과 육신의 갑옷",
+			"sourceName": "레인저/드루이드",
+			"range": "원거리 주문",
+			"target": "단거리의 동물 친구 하나",
+			"special": "<p>이 주문을 사용하려면 원기를 하나 소비해야 합니다.</p>",
+			"effect": "<p>전투가 끝날 때까지, 대상은 장갑에 대한 공격을 방어할 때 피해 저항 12+를 받습니다.</p>",
+			"7thLevelSpell": "이제 신방에 대한 공격에도 같은 저항이 생깁니다.",
+			"9thLevelSpell": "저항이 피해 저항 14+로 높아집니다."
+		},
+		"Blood is Strong": {
+			"name": "피의 힘",
+			"group": "동물 친구",
+			"originalName": "피의 힘",
+			"sourceName": "레인저/드루이드",
+			"range": "원거리 주문",
+			"target": "단거리의 동물 친구 하나",
+			"effect": "<p>전투가 끝날 때까지, 대상의 근접 공격이 명중하면 이 캐릭터의 체력이 1d10 + 통찰 수정치만큼 회복됩니다.</p>",
+			"9thLevelSpell": "이제 체력을 2d10 + 통찰 수정치 두 배만큼 회복합니다."
+		},
+		"Magic Fang": {
+			"name": "마법의 송곳니",
+			"group": "동물 친구",
+			"originalName": "마법의 송곳니",
+			"sourceName": "레인저/드루이드",
+			"range": "원거리 주문",
+			"target": "단거리의 동물 친구 하나",
+			"effect": "<p>대상이 이미 공격에 고조 주사위를 더하고 있다면 전투가 끝날 때까지 공격 보너스로 +2를 받습니다. 고조 주사위를 아직 더하고 있지 않다면 전투가 끝날 때까지 공격 판정에 고조 주사위를 더합니다.</p>",
+			"5thLevelSpell": "대상의 대성공 범위가 2만큼 확장됩니다.",
+			"7thLevelSpell": "대상의 대성공 범위가 총 4만큼 확장됩니다."
+		},
+		"Pack Link": {
+			"name": "무리 협공",
+			"group": "동물 친구",
+			"originalName": "무리 협공",
+			"sourceName": "레인저/드루이드",
+			"range": "원거리 주문",
+			"target": "단거리의 동물 친구 하나",
+			"effect": "<p>전투가 끝날 때까지, 대상이 이 캐릭터와 접전중인 적을 공격하면 그 공격의 근접 공격 피해 주사위가 한 단계 커집니다 (최대 d12).</p>",
+			"5thLevelSpell": "이제 대상의 기본 근접 공격이 순수 짝수로 빗나갔을 때 절반 피해를 줍니다.",
+			"7thLevelSpell": "이제 대상의 기본 근접 공격이 빗나갔을 때 항상 절반 피해를 줍니다."
+		},
+		"Spirit Guardian": {
+			"name": "영혼의 수호",
+			"group": "동물 친구",
+			"originalName": "영혼의 수호",
+			"sourceName": "레인저/드루이드",
+			"range": "원거리 주문",
+			"trigger": "체력이 0 이상인 동물 친구가 단거리에 있는 동안 자기 체력이 0 이하로 떨어졌을 때.",
+			"effect": "<p>동물 친구와 영혼을 바꿉니다. 이제 동물 친구의 몸에 들어가서 동물 친구의 현재 체력, 방어, 공격을 사용합니다 (동물 친구에게 걸어 둔 주문 효과도 유지).</p><p>동물 친구의 몸에 있는 동안은 주문이나 인간형으로 있을 때의 원래 능력, 클래스 특징을 사용할 수 없습니다. 동물 친구로서 계속 싸울 수도 있고, 자기 차례마다 짧은 행동으로 보통 극복 판정을 할 수도 있습니다. 성공하면 동물 친구와 다시 영혼을 바꿔 원래 몸으로 돌아갑니다. 돌아온 후의 체력은 극복 판정을 하기 직전 동물 친구에게 있던 체력과 같지만, 원하면 돌아오는 사이에 원기를 써서 회복할 수도 있습니다. 극복 판정에 성공해서 약간 회복된 몸으로 돌아오면 주문의 효과가 끝납 니다.<p></p>영혼을 바꾼 사이에 동물 친구가 죽음 극복 판정에 성공해서 이 캐릭터의 몸을 회복할 수도 있습니다. 그렇게 정신을 차린 동물 친구는 자신의 기본 근접 공격을 할 수 있지만, 주문이나 다른 능력을 사용할 수는 없습니다. 죽음 극복 판정의 실패 횟수는 몸이 아닌 영혼에 쌓입니다."
+		},
+		"Vitality": {
+			"name": "활력",
+			"group": "동물 친구",
+			"originalName": "활력",
+			"sourceName": "레인저/드루이드",
+			"range": "원거리 주문",
+			"target": "단거리의 동물 친구 하나",
+			"effect": "<p>대상이 공짜 원기를 써서 회복합니다.</p>",
+			"3rdLevelSpell": "대상은 전투가 끝나거나 체력이 0으로 떨어질 때까지 차례가 시작될 때마다 추가로 이 캐릭 터의 통찰 수정치만큼 체력을 회복합니다.",
+			"5thLevelSpell": "이제 대상이 차례가 시작될 때 회복하는 체력이 통찰 수정치의 두 배입니다.",
+			"7thLevelSpell": "이제 대상이 차례가 시작될 때 회복하는 체력이 통찰 수정치의 세 배입니다.",
+			"9thLevelSpell": "이 전투에서 처음으로 대상의 체력이 0으로 떨어질 때 보통 극복 판정을 할 수 있습니다. 성공하면 대상이 이 캐릭터의 원기 하나를 써서 회복합니다."
+		}
+	}
+}
