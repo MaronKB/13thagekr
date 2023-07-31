@@ -20,7 +20,7 @@
 		"special": "system.special.value",
 		"effect": "system.effect.value",
 		"castBroadEffect": "system.castBroadEffect.value",
-		"castPower": "system.castBroadEffect.value",
+		"castPower": "system.castPower.value",
 		"sustainedEffect": "system.sustainedEffect.value",
 		"finalVerse": "system.finalVerse.value",
 		"chainedSpell": "system.spellChain.value",

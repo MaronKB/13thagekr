@@ -20,7 +20,7 @@
 		"special": "data.special.value",
 		"effect": "data.effect.value",
 		"castBroadEffect": "data.castBroadEffect.value",
-		"castPower": "data.castBroadEffect.value",
+		"castPower": "system.castPower.value",
 		"sustainedEffect": "data.sustainedEffect.value",
 		"finalVerse": "data.finalVerse.value",
 		"chainedSpell": "data.spellChain.value",
