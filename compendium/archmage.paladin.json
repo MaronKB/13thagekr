@@ -29,9 +29,9 @@
 		"5thLevelSpell": "system.spellLevel5.value",
 		"7thLevelSpell": "system.spellLevel7.value",
 		"9thLevelSpell": "system.spellLevel9.value",
-		"adventurer": "system.feats.adventurer.description.value",
-		"champion": "system.feats.champion.description.value",
-		"epic" : "system.feats.epic.description.value"
+		"adventurer": "system.feats.0.description.value",
+		"champion": "system.feats.1.description.value",
+		"epic" : "system.feats.2.description.value"
 	},
 	"entries": {
 		"(Smite Evil) Melee attack (Daily)": {
