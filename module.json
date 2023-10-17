@@ -1,35 +1,53 @@
 {
-	"name": "13thagekr",
-	"title": "Translation: Korean [13th Age]",
-	"description": "<p>13시대 한국어화</p>",
-	"version": "1.3.4",
-	"minimumCoreVersion" : "0.6.4",
-	"compatibleCoreVersion": "1.0.0",
-	"compatibility": {
-		"minimum": 10,
-		"verified": "10.291"
-	},
-	"author": "mrkb",
-	"authors": [
-		{
-			"name": "MRKB",
-			"discord": "MRKB#9999"
-		}
-	],
-	"esmodules": [
-	"babele-register.js"
-	],
-	"scripts": [],
-	"styles": ["style.css"],
-	"packs": [],
-	"languages": [
-	{
+  "title": "Translation: Korean [13th Age]",
+  "description": "<p>13시대 한국어화</p>",
+  "version": "1.4.0",
+  "compatibility": {
+    "minimum": "11.313",
+    "verified": "11.313"
+  },
+  "authors": [
+    {
+      "name": "MRKB",
+      "discord": "mrkb",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "archmage",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.26.1",
+          "verified": "1.26.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "languages": [
+    {
       "lang": "ko",
       "name": "한국어(Korean)",
-      "path": "ko.json"
+      "path": "ko.json",
+      "flags": {}
     }
-	],
-	"url": "https://github.com/MaronKB/13thagekr",
-	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
-	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
+  ],
+  "url": "https://github.com/MaronKB/13thagekr",
+  "manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
+  "download": "https://github.com/MaronKB/13thagekr/archive/master.zip",
+  "id": "13thagekr"
 }

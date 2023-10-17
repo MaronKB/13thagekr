@@ -5289,7 +5289,7 @@
 						"hit": {
 							"type": "String",
 							"label": "Hit",
-							"value": "[[10]] lightning damage, and at the start of the target's next turn,  [[1d6]] nearby allies of the target take [[4]] lightning damage."
+							"value": "[[10]] lightning damage, and at the start of the target's next turn, [[1d6]] nearby allies of the target take [[4]] lightning damage."
 						},
 						"hit1": {
 							"type": "String",
@@ -21590,7 +21590,7 @@
 						"attack": {
 							"type": "String",
 							"label": "Attack Roll",
-							"value": "Roll [[1d20] and  [[1d20]] and use each roll (or a lower result of your choice) to determine one effect"
+							"value": "Roll [[1d20] and [[1d20]] and use each roll (or a lower result of your choice) to determine one effect"
 						},
 						"hit": {
 							"type": "String",

@@ -704,7 +704,7 @@
 						"hit": {
 							"type": "String",
 							"label": "Hit",
-							"value": "6  damage"
+							"value": "6 damage"
 						},
 						"hit1": {
 							"type": "String",
@@ -1720,7 +1720,7 @@
 						"attack": {
 							"type": "String",
 							"label": "Attack Roll",
-							"value": "[[1d20+11]]  vs PD "
+							"value": "[[1d20+11]] vs PD "
 						},
 						"hit": {
 							"type": "String",
@@ -2637,7 +2637,7 @@
 				{
 					"_id": "SF7q7GKAA6cRjGMZ",
 					"flags": {},
-					"name": "R: Magic missile  (one nearby or far away enemy)",
+					"name": "R: Magic missile (one nearby or far away enemy)",
 					"type": "action",
 					"img": "icons/svg/target.svg",
 					"data": {
@@ -5068,7 +5068,7 @@
 						"attack": {
 							"type": "String",
 							"label": "Attack Roll",
-							"value": "[[1d20+14]]  vs. PD (all nearby enemies)"
+							"value": "[[1d20+14]] vs. PD (all nearby enemies)"
 						},
 						"hit": {
 							"type": "String",
@@ -7894,7 +7894,7 @@
 						"hit": {
 							"type": "String",
 							"label": "Hit",
-							"value": "14  damage, and willing-underling triggers"
+							"value": "14 damage, and willing-underling triggers"
 						},
 						"hit1": {
 							"type": "String",
@@ -9588,7 +9588,7 @@
 						"attack": {
 							"type": "String",
 							"label": "Attack Roll",
-							"value": "[[1d20+9]]  vs. PD ([[1d3]] nearby enemies)"
+							"value": "[[1d20+9]] vs. PD ([[1d3]] nearby enemies)"
 						},
 						"hit": {
 							"type": "String",
@@ -11800,7 +11800,7 @@
 						"attack": {
 							"type": "String",
 							"label": "Attack Roll",
-							"value": "[[1d20+8]]  vs. PD ([[1d3]] nearby enemies)"
+							"value": "[[1d20+8]] vs. PD ([[1d3]] nearby enemies)"
 						},
 						"hit": {
 							"type": "String",
@@ -13660,7 +13660,7 @@
 						"attack": {
 							"type": "String",
 							"label": "Attack Roll",
-							"value": "[[1d20+6]]  vs. PD ([[1d3]] nearby enemies)"
+							"value": "[[1d20+6]] vs. PD ([[1d3]] nearby enemies)"
 						},
 						"hit": {
 							"type": "String",
@@ -18903,7 +18903,7 @@
 						"hit": {
 							"type": "String",
 							"label": "Hit",
-							"value": "5  damage"
+							"value": "5 damage"
 						},
 						"hit1": {
 							"type": "String",
