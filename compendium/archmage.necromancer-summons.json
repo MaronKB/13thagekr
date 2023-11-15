@@ -1,0 +1,102 @@
+{
+	"label": "사령술사 (소환수)",
+	"map": {
+		"resistance": "system.details.resistance.value",
+		"vulnerability": "system.details.vulnerability.value"
+	},
+	"entries": {
+		"Blackamber Skeletal Warrior": {
+			"name": "검은호박석 해골 전사",
+			"resistance": "무기 저항 16+",
+			"vulnerability": "신성"
+		},
+		"Crumbling Skeleton": {
+			"name": "부서지는 해골",
+			"vulnerability": "신성"
+		},
+		"Just-ripped-free Skeleton Mook (3)": {
+			"name": "방금 일으킨 해골 조무래기 (3)",
+			"vulnerability": "신성"
+		},
+		"Just-ripped-free Skeleton Mook (5)": {
+			"name": "방금 일으킨 해골 조무래기 (5)",
+			"vulnerability": "신성"
+		},
+		"Just-ripped-free Skeleton Mook (7)": {
+			"name": "방금 일으킨 해골 조무래기 (7)",
+			"vulnerability": "신성"
+		},
+		"Just-ripped-free Skeleton Mook (9)": {
+			"name": "방금 일으킨 해골 조무래기 (9)",
+			"vulnerability": "신성"
+		},
+		"Masterless Vampire Spawn": {
+			"name": "주인 없는 새끼 뱀파이어",
+			"vulnerability": "신성"
+		},
+		"Putrid Zombie": {
+			"name": "썩어가는 좀비",
+			"vulnerability": "신성"
+		},
+		"Skeletal Minion (Lvl 1)": {
+			"name": "해골 부하 (1레벨)"
+		},
+		"Skeletal Minion (Lvl 10)": {
+			"name": "해골 부하 (10레벨)"
+		},
+		"Skeletal Minion (Lvl 2)": {
+			"name": "해골 부하 (2레벨)"
+		},
+		"Skeletal Minion (Lvl 3)": {
+			"name": "해골 부하 (3레벨)"
+		},
+		"Skeletal Minion (Lvl 4)": {
+			"name": "해골 부하 (4레벨)"
+		},
+		"Skeletal Minion (Lvl 5)": {
+			"name": "해골 부하 (5레벨)"
+		},
+		"Skeletal Minion (Lvl 6)": {
+			"name": "해골 부하 (6레벨)"
+		},
+		"Skeletal Minion (Lvl 7)": {
+			"name": "해골 부하 (7레벨)"
+		},
+		"Skeletal Minion (Lvl 8)": {
+			"name": "해골 부하 (8레벨)"
+		},
+		"Skeletal Minion (Lvl 9)": {
+			"name": "해골 부하 (9레벨)"
+		},
+		"Starving Ghoul": {
+			"name": "굶주린 구울",
+			"vulnerability": "신성"
+		},
+		"Summoned Barrow Wight": {
+			"name": "소환된 무덤 와이트",
+			"vulnerability": "신성"
+		},
+		"Summoned Ghoul": {
+			"name": "소환된 구울",
+			"vulnerability": "신성"
+		},
+		"Summoned Greater Wight": {
+			"name": "소환된 상급 와이트",
+			"vulnerability": "신성"
+		},
+		"Summoned Greater Wraith": {
+			"name": "소환된 상급 망령",
+			"resistance": "무기 저항 16+",
+			"vulnerability": "신성"
+		},
+		"Summoned Wight": {
+			"name": "소환된 와이트",
+			"vulnerability": "신성"
+		},
+		"Summoned Wraith": {
+			"name": "소환된 망령",
+			"resistance": "무기 저항 16+",
+			"vulnerability": "신성"
+		}
+	}
+}
